@@ -1,0 +1,43 @@
+{
+  "name": "Advertisingsettings",
+  "version": "1.0.0",
+  "description": "Gutenberg siderbar for advertising settings",
+  "author": "Alex",
+  "license": "GPL-2.0",
+  "main": "index.js",
+  "type": "module",
+  "jest": {
+    "verbose": true,
+    "testTimeout": 30000
+  },
+  "scripts": {
+    "wp-env": "wp-env",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:e2e:help": "wp-scripts test-e2e --help",
+    "test:e2e:debug": "wp-scripts --inspect-brk test-e2e --puppeteer-devtools",
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.12.1",
+    "@types/react": "^16.9.55",
+    "@types/wordpress__plugins": "^2.3.7",
+    "@wordpress/e2e-test-utils": "^4.15.0",
+    "@wordpress/e2e-tests": "^1.24.2",
+    "@wordpress/env": "^2.1.0",
+    "@wordpress/scripts": "^12.5.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "cssnext": "^1.8.4",
+    "laravel-mix": "^4.0.14",
+    "laravel-mix-react-typescript-extension": "^1.0.3",
+    "purecss": "^1.0.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.16.1",
+    "sass-loader": "^7.1.0",
+    "source-map": "^0.7.3",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5"
+  }
+}
