@@ -38,7 +38,7 @@ username/password for wp_admin: `admin/password`
 
 
 
-5. Compile assets **typescript and scss** by running:
+5. Compile assets **typescript and scss** by running (Thanks to webpack & laravel-mix):
 ```
 $ npm run watch
 ```
