@@ -26,7 +26,7 @@ describe( '🔬 Ad Sideber', () => {
     test( '🔬 Advertisements sidebar should be available', async () => {
         expect(f.add(2,2)).toBe(4);
         await openSidebar()
-		// expect( await getEditedPostContent() ).toMatchSnapshot();
+		expect( await getEditedPostContent() ).toMatchSnapshot();
     } )
 
 } );
