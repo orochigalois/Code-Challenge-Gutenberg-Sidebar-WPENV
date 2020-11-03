@@ -1,20 +1,15 @@
 {
   "name": "Advertisingsettings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gutenberg siderbar for advertising settings",
   "author": "Alex",
   "license": "GPL-2.0",
   "main": "index.js",
   "type": "module",
-  "jest": {
-    "verbose": true,
-    "testTimeout": 30000
-  },
   "scripts": {
     "wp-env": "wp-env",
-    "test:e2e": "wp-scripts test-e2e",
-    "test:e2e:help": "wp-scripts test-e2e --help",
-    "test:e2e:debug": "wp-scripts --inspect-brk test-e2e --puppeteer-devtools",
+    "tests": "wp-scripts test-e2e",
+    "update-snap": "wp-scripts test-e2e -u",
     "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
@@ -25,7 +20,6 @@
     "@types/react": "^16.9.55",
     "@types/wordpress__plugins": "^2.3.7",
     "@wordpress/e2e-test-utils": "^4.15.0",
-    "@wordpress/e2e-tests": "^1.24.2",
     "@wordpress/env": "^2.1.0",
     "@wordpress/scripts": "^12.5.0",
     "copy-webpack-plugin": "^4.6.0",

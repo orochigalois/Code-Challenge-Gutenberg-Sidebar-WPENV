@@ -49,15 +49,15 @@ $ npm run wp-env stop
 ```
 
 
-#### (TODO) Puppeteer E2E Tests：
+#### Puppeteer E2E Tests：
 The Puppeteer E2E Tests are stored in the `e2e-tests` directory.
 
-To run the tests use the following command:
+To run the tests, please activate 'Advertising Settings' plugin in test environment(http://localhost:8889/wp-admin), then you can use the following command in terminal:
 
 ```
-$ npm run test:e2e
+$ npm run tests
 ```
 Updated all snapshots before running test:
 ```
-$ npm run test:e2e -- -u
+$ npm run update-snap
 ```
