@@ -50,7 +50,7 @@ $ npm run wp-env stop
 
 
 #### Puppeteer E2E Tests：
-The Puppeteer E2E Tests are stored in the `e2e-tests` directory.
+All testcases have a '.spec.js' suffix under components folder.
 
 To run the tests, please follow these steps:
 
