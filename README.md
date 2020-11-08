@@ -16,7 +16,7 @@ Edit/Create a post, you'll see the **Advertising Settings** sidebar:
 ### 2. Local environment is run via wp-env/Docker
 
 #### Prerequisites:
-1. **Docker** must be installed successfully on your local machine
+1. **Docker** must be installed successfully on your local machine and make sure it is running
 1. Node.js version > 13 (recommend using v14.7.0 via **nvm**)
 
 #### Installation:
